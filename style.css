@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Electrolize&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Unbounded:wght@200..900&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Electrolize&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Unbounded:wght@200..900&family=Yeseva+One&display=swap');
+
+
+.poppins-regular {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.electrolize-regular {
+    font-family: "Electrolize", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+body {
+   
+    background: black;
+    font-family: Poppins ,sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+.ribbon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:black;
+    color: white;
+    width: 100%;
+    height: 5vh;
+    text-align: center;
+    position: relative;
+    z-index: 11;
+    font-family: Electrolize;    
+}
+.ribbon a{
+    font-weight: 400;
+    font-family: Poppins;
+}
+nav{
+    background: linear-gradient(to right, #001d3d, #000913); /* Initial gradient */
+}
+
+
+.hero{
+    background: url(burning-lamp-hangs-dark-blurred-background-space-text.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 90vh;
+    transition: 1s;
+    animation: ease-in-out;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 600px) {
+
+    .hero{
+        background: url(phone-page.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 60vh;
+       
+    }    
+
+    .herotext{
+        display: flex;
+        justify-content: center;
+        font-size: 1px;
+        align-items: center;
+        user-select: none;
+    }
+
+    .ribbon{
+    display: flex;
+    font-size: 1em;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    justify-content: center;
+    /* width: 21em;
+    height: 10vh; */
+    }
+}
+
+.hero:hover{
+    transition: 1s;
+    box-shadow: 0px 0px 1px yellow ;
+}
+
+.herotext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3em;
+    top: 5em;
+    user-select: none;
+}
+
+
+.hero2{
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 90vh;
+    transition: 1s;
+    animation: ease-in-out;
+    margin-top: 10px;
+}
+
+.hero2:hover{
+    transition: 1s;
+    box-shadow: 0px 0px 1px black ;
+}
+
+
+
